@@ -1,4 +1,7 @@
 management:
+  ## port change
+#  server:
+#    port: 9292
   endpoint:
     health:
       show-components: always
