@@ -13,7 +13,12 @@ management:
       enabled: true
     env:
       enabled: true
+
+## env info
 info:
   app:
     name: hello-actuator
     company: h3
+logging:
+  level:
+    com.example.actuator.controller: debug
